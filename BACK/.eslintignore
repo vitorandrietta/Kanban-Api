@@ -1,0 +1,4 @@
+dist
+/*.js
+src/sqlz/config/config.js
+src/sqlz/migrations/*.js

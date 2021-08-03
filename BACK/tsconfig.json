@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "target": "es2017",                                
+    "module": "commonjs",                           
+     "lib": ["ES6"],                                   
+    "allowJs": true,                             
+    "rootDir": "./src",                             
+    "outDir": "./dist",                              
+    "removeComments": true,                      
+    "strict": true,                                 
+    "noImplicitAny": true,                       
+    "resolveJsonModule": true,                      
+    "typeRoots": ["./node_modules/@types", "./src/@types"],                             
+    "esModuleInterop": true,                        
+    "experimentalDecorators": true,              
+    "emitDecoratorMetadata": true,               
+    "skipLibCheck": true,                           
+    "forceConsistentCasingInFileNames": true,
+    "baseUrl": ".",
+    "paths": {
+      "@controllers/*": ["./src/controllers/*"],
+      "@models/*": ["./src/sqlz/models/*"],
+      "@routes/*": ["./src/routes/*"]
+    }
+  },
+  "include": [
+    "src/**/*"
+  ]
+}
